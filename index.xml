@@ -1,47 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ExampleSite</title>
-    <link>https://examplesite.com/</link>
-    <description>Recent content on ExampleSite</description>
-    <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
+    <title>LuciaK&#39;s Blog</title>
+    <link>/</link>
+    <description>Recent content on LuciaK&#39;s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 11 Mar 2025 20:00:39 +0800</lastBuildDate>
-    <atom:link href="https://examplesite.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Third</title>
-      <link>https://examplesite.com/posts/third/</link>
-      <pubDate>Tue, 11 Mar 2025 20:00:39 +0800</pubDate>
-      <guid>https://examplesite.com/posts/third/</guid>
-      <description>&lt;p&gt;hahaahhhhhhhhh&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Second</title>
-      <link>https://examplesite.com/posts/second/</link>
-      <pubDate>Tue, 11 Mar 2025 19:56:07 +0800</pubDate>
-      <guid>https://examplesite.com/posts/second/</guid>
-      <description>&lt;p&gt;some text here&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>https://examplesite.com/posts/my-first-post/</link>
-      <pubDate>Tue, 11 Mar 2025 19:40:15 +0800</pubDate>
-      <guid>https://examplesite.com/posts/my-first-post/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;创建github仓库并调整settings（参考https://docs.github.com/en/pages/quickstart）&lt;/li&gt;
-&lt;li&gt;hugo的基本操作（参考https://gohugo.io/getting-started/quick-start/）
-&lt;ol&gt;
-&lt;li&gt;install hugo（brew install hugo）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;创建一个新的源码仓库blog-src（private），新增gitignore文件&lt;/li&gt;
-&lt;li&gt;克隆到本地，使用hugo new site命令初始化文件夹目录结构&lt;/li&gt;
-&lt;/ol&gt;</description>
-    </item>
+    <language>zh</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
