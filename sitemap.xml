@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://example.org/posts/cs106l/</loc><lastmod>2025-03-13T17:11:37+08:00</lastmod></url><url><loc>https://example.org/</loc><lastmod>2025-03-13T17:11:37+08:00</lastmod></url><url><loc>https://example.org/posts/</loc><lastmod>2025-03-13T17:11:37+08:00</lastmod></url><url><loc>https://example.org/archives/</loc></url><url><loc>https://example.org/categories/</loc></url><url><loc>https://example.org/tags/</loc></url><url><loc>https://example.org/search/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://LuciaKot.github.io/posts/cs106b/</loc>
+    <lastmod>2025-03-13T17:11:37+08:00</lastmod>
+  </url><url>
+    <loc>https://LuciaKot.github.io/posts/cs106l/</loc>
+    <lastmod>2025-03-13T17:11:37+08:00</lastmod>
+  </url><url>
+    <loc>https://LuciaKot.github.io/</loc>
+    <lastmod>2025-03-13T17:11:37+08:00</lastmod>
+  </url><url>
+    <loc>https://LuciaKot.github.io/posts/</loc>
+    <lastmod>2025-03-13T17:11:37+08:00</lastmod>
+  </url><url>
+    <loc>https://LuciaKot.github.io/archives/</loc>
+  </url><url>
+    <loc>https://LuciaKot.github.io/categories/</loc>
+  </url><url>
+    <loc>https://LuciaKot.github.io/tags/</loc>
+  </url><url>
+    <loc>https://LuciaKot.github.io/search/</loc>
+  </url>
+</urlset>
