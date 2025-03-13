@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://LuciaKot.github.io/categories/</loc>
+    <lastmod>2025-03-13T17:11:37+08:00</lastmod>
+  </url><url>
     <loc>https://LuciaKot.github.io/posts/cs106b/</loc>
     <lastmod>2025-03-13T17:11:37+08:00</lastmod>
   </url><url>
@@ -14,11 +17,16 @@
     <loc>https://LuciaKot.github.io/posts/</loc>
     <lastmod>2025-03-13T17:11:37+08:00</lastmod>
   </url><url>
-    <loc>https://LuciaKot.github.io/archives/</loc>
-  </url><url>
-    <loc>https://LuciaKot.github.io/categories/</loc>
-  </url><url>
     <loc>https://LuciaKot.github.io/tags/</loc>
+    <lastmod>2025-03-13T17:11:37+08:00</lastmod>
+  </url><url>
+    <loc>https://LuciaKot.github.io/tags/%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2025-03-13T17:11:37+08:00</lastmod>
+  </url><url>
+    <loc>https://LuciaKot.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
+    <lastmod>2025-03-13T17:11:37+08:00</lastmod>
+  </url><url>
+    <loc>https://LuciaKot.github.io/archives/</loc>
   </url><url>
     <loc>https://LuciaKot.github.io/search/</loc>
   </url>
