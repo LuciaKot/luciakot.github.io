@@ -1,12 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Posts on LuciaK&#39;s Blog</title>
-    <link>/posts/</link>
-    <description>Recent content in Posts on LuciaK&#39;s Blog</description>
-    <generator>Hugo -- 0.145.0</generator>
-    <language>zh</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on My New Hugo Site</title><link>https://example.org/posts/</link><description>Recent content in Posts on My New Hugo Site</description><generator>Hugo -- 0.145.0</generator><language>en-us</language><lastBuildDate>Thu, 13 Mar 2025 13:42:19 +0800</lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Cs106L</title><link>https://example.org/posts/cs106l/</link><pubDate>Thu, 13 Mar 2025 13:42:19 +0800</pubDate><guid>https://example.org/posts/cs106l/</guid><description>&lt;p>&lt;strong>&lt;!-- raw HTML omitted -->注意：习题都还没做，等到看完视频之后来做，并且更新一下八股文文档。&lt;!-- raw HTML omitted -->&lt;/strong>&lt;/p>
+&lt;h2 id="lecture0c的历史和哲学">Lecture0：C++的历史和哲学&lt;/h2>
+&lt;h3 id="c的发展历史">C++的发展历史&lt;/h3>
+&lt;ul>
+&lt;li>汇编：unportable、hardtowrite&lt;/li>
+&lt;li>C：no classes&lt;/li>
+&lt;li>C++&lt;/li>
+&lt;/ul>
+&lt;h1 id="--------a-better-c--------">&lt;!-- raw HTML omitted -->— — — — — — A better C — — — — — —&lt;!-- raw HTML omitted -->&lt;/h1>
+&lt;h2 id="chapter-3streamtypes-and-advanced-streams">Chapter 3：stream、types and advanced streams&lt;/h2>
+&lt;p>stream：程序与其环境（即用户和文件系统）进行交互的主要手段&lt;/p>
+&lt;h3 id="不同的stream">不同的stream&lt;/h3>
+&lt;h4 id="cincout">cin、cout&lt;/h4>
+&lt;blockquote>
+&lt;p>终端、键盘输入输出&lt;/p>&lt;/blockquote>
+&lt;p>不是很安全，有可能读不全（导致后续的读取出现错误），也不提供安全检查&lt;/p>
+&lt;ul>
+&lt;li>读到空格或换行符为止&lt;/li>
+&lt;li>或者读到任何不符合该type的字符为止，因此读取type是会影响读取的数量的！&lt;/li>
+&lt;/ul>
+&lt;h4 id="ifstreamofstream">ifstream、ofstream&lt;/h4>
+&lt;blockquote>
+&lt;p>和磁盘中的文件交互&lt;/p>&lt;/blockquote>
+&lt;ul>
+&lt;li>&lt;strong>创建&lt;/strong>：&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">//文件名要用cstring格式，可用.c_str()转换
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>ifstream &lt;span style="color:#a6e22e">myStream&lt;/span>(&lt;span style="color:#960050;background-color:#1e0010">文件名&lt;/span>); &lt;span style="color:#75715e">//方法1
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ifstream myStream;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>myStream.open(&lt;span style="color:#960050;background-color:#1e0010">文件名&lt;/span>); &lt;span style="color:#75715e">//方法2
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">if&lt;/span>(myStream.is_open()){&lt;span style="color:#960050;background-color:#1e0010">……&lt;/span>};
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;strong>读取和写入&lt;/strong>
+&lt;ul>
+&lt;li>读取：myStream &amp;raquo; myInteger&lt;/li>
+&lt;li>写入：注意ofstream会创建不存在的文件，或会覆盖原来的文件&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>关闭&lt;/strong>：读取后，用close关闭&lt;/li>
+&lt;/ul>
+&lt;h4 id="getline">getline&lt;/h4>
+&lt;blockquote>
+&lt;p>读取文件的一行。更安全地读取文件的方式&lt;/p></description></item></channel></rss>
